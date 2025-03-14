@@ -1,0 +1,138 @@
+.post-form,
+.news-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-form h2,
+.news-list h2 {
+    text-align: center;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.post-form button {
+    padding: 10px 20px;
+    background-color: #4285F4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.post-form {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-form h2 {
+    text-align: center;
+}
+
+.post-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.post-form button {
+    padding: 10px 20px;
+    background-color: #4285F4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.post-message {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.news-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-item a.action {
+    margin-right: 10px;
+    color: #4285F4;
+    text-decoration: none;
+}
+
+.news-item a.action:hover {
+    text-decoration: underline;
+}
+
+.post-detail {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tin_tuc {
+    display: flex;
+    font-size: 29px;
+    display: flex;
+    gap: 20px;
+}
+
+.ul-list {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ul-list li {
+    width: 50%;
+    border: 1px solid #00000026;
+}
+
+.ul-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

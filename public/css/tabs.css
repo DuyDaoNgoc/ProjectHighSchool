@@ -1,0 +1,178 @@
+.tabs2 {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 0;
+    width: max-content;
+}
+
+.tabs2 li {
+    padding: 10px 15px;
+    background: lightgray;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.tabs2 li.active {
+    background: #EC2227;
+    color: white;
+}
+
+.tab-content2 {
+    display: none;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccccccc2;
+    margin-top: 10px;
+}
+
+.tab-content2.active {
+    display: block;
+}
+
+
+.list-table2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.list-table2 li {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list-table2 li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.list-table2 li a:hover {
+    color: white;
+
+    display: block;
+
+}
+
+.tab-content-item2 {
+    display: flex;
+    gap: 10px;
+}
+
+.tuyensinh {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.course-item {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    line-height: 31px;
+}
+
+.course-item img {
+    max-width: 245px;
+    object-fit: cover;
+    height: auto;
+    box-shadow: 0 0 6px 0 black;
+    border-radius: 10px;
+}
+
+.course-item h2 {
+    color: #2A3C95;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-list-tuyensinh {
+    padding: 50px 0;
+}
+
+.list-tuyensinh {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.list-tuyensinh li {
+    background: #e8e8e8;
+    padding: 20px 0px;
+    border-radius: 12px;
+    width: calc(71% - -23px);
+}
+
+.list-tuyensinh li:hover {
+    background: #0A154E;
+
+}
+
+.list-tuyensinh li a {
+    color: #0A154E;
+    width: 70%;
+    padding: 0px 34px;
+    float: left;
+    background: url('http://localhost/high-school/public/asset/img/muiten.png') no-repeat right 20px center;
+
+}
+
+.action-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 48px;
+    overflow: hidden;
+}
+
+.action-links a:nth-child(1) {
+    background: greenyellow;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    color: red;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.action-links a:nth-child(2) {
+    background: darkmagenta;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.action-links a:nth-child(3) {
+    background: darkgrey;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.action-links a:nth-child(4) {
+    background: red;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}

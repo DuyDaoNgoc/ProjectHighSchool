@@ -1,0 +1,131 @@
+  .tabs {
+      list-style: none;
+      display: flex;
+      gap: 10px;
+      width: max-content;
+      cursor: pointer;
+  }
+
+  .tabs li {
+      padding: 10px 15px;
+      background: lightgray;
+      border-radius: 5px;
+      font-weight: 600;
+  }
+
+  .tabs li.active {
+      background: #EC2227;
+      color: white;
+  }
+
+  .tab-content {
+      display: none;
+      box-shadow: 1px 0px 10px 0px;
+      border-radius: 15px;
+      background: white;
+      /* border: 1px solid #ccccccc2; */
+      margin-top: 10px;
+
+  }
+
+
+  .tuyensinh {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+  }
+
+  .tab-content.active {
+      display: block;
+  }
+
+  .list-table {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .list-table li a {
+      color: darkblue;
+  }
+
+  .list-table li {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+  }
+
+
+
+
+  .list-table li a:hover {
+      color: white;
+  }
+
+  .tab-content-item {
+      display: flex;
+      gap: 10px;
+  }
+
+  .content-nd {
+      display: flex;
+      gap: 10px;
+      padding: 19px;
+      flex-direction: column;
+  }
+
+  .content-nd h1 {
+      font-size: 50px;
+      font-weight: 600;
+      color: darkblue;
+  }
+
+  .content-nd p {
+      color: #333;
+  }
+
+
+
+
+
+
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  }
+
+  th,
+  td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+  }
+
+  .table-th {
+      background-color: green;
+      color: #fff;
+  }
+
+
+  form {
+      margin-bottom: 20px;
+  }
+
+  .transform-padding {
+      padding: 20px;
+      overflow-y: scroll;
+  }
+
+  .submit-search {
+      padding: 10px;
+      border-radius: 0 13px 13px 0;
+      border: none;
+      box-shadow: 1px 1px 0px 1px darkviolet;
+      cursor: pointer;
+  }
+
+  .input-search {
+      padding: 10px;
+      border-radius: 13px 0 0 13px;
+  }

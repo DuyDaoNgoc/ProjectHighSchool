@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: left;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.create-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.create-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.create-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.create-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+
+.thong-tin-ca-nhan {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.form-doi-mat-khau {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

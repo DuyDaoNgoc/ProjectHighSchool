@@ -1,0 +1,84 @@
+/* Khung carousel có kích thước cố định (ví dụ: hiển thị 3 phần tử) */
+.carousel-wrapper {
+    position: relative;
+    width: 1089px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/* Container chứa các course-item, hiển thị theo hàng ngang */
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Các liên kết chứa course-item */
+.carousel-container a {
+    text-decoration: none;
+}
+
+/* Mỗi course-item có kích thước cố định */
+.course-item {
+    /* width: 300px; */
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Các nút điều hướng */
+.carousel-btn {
+    position: absolute;
+    top: 36%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+}
+
+.carousel-btn.left {
+    left: 10px;
+}
+
+.carousel-btn.right {
+    right: 10px;
+}
+
+.course-detail-container {
+
+
+    /* margin: 20px auto; */
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 5px; */
+    background-color: #fff;
+}
+
+
+
+.course-info {
+    margin-top: 15px;
+    line-height: 28px;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit-register {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px blue;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 600;
+}
